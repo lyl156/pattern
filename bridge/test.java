@@ -7,5 +7,12 @@ public class test {
 
     public static void main(String[] args) {
         logger.info("this is bridge pattern");
+        Color blue = new Blue();
+        Color green = new Green();
+        Shape square = new Square(blue);
+        Shape triangle = new Triangle(green);
+
+        square.printShape();
+        triangle.printShape();
     }
 }
