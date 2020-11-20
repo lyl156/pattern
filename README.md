@@ -1,2 +1,2 @@
 # pattern
-iterator, memento
+iterator
